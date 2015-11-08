@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		271480D51BECE8F100CC7011 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 271480D41BECE8F100CC7011 /* main.c */; };
+		271C10931BEF31ED006C9D2C /* LinkList.c in Sources */ = {isa = PBXBuildFile; fileRef = 271C10921BEF31ED006C9D2C /* LinkList.c */; };
 		27DFA0AF1BED976E00862933 /* SeqList.c in Sources */ = {isa = PBXBuildFile; fileRef = 27DFA0AD1BED976E00862933 /* SeqList.c */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		271480D11BECE8F100CC7011 /* Data */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Data; sourceTree = BUILT_PRODUCTS_DIR; };
 		271480D41BECE8F100CC7011 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		271C10921BEF31ED006C9D2C /* LinkList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkList.c; sourceTree = "<group>"; };
+		271C10941BEF31F6006C9D2C /* LinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkList.h; sourceTree = "<group>"; };
 		27DFA0AD1BED976E00862933 /* SeqList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SeqList.c; sourceTree = "<group>"; };
 		27DFA0AE1BED976E00862933 /* SeqList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeqList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +63,8 @@
 		271480D31BECE8F100CC7011 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				271C10941BEF31F6006C9D2C /* LinkList.h */,
+				271C10921BEF31ED006C9D2C /* LinkList.c */,
 				27DFA0AD1BED976E00862933 /* SeqList.c */,
 				27DFA0AE1BED976E00862933 /* SeqList.h */,
 				271480D41BECE8F100CC7011 /* main.c */,
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				271480D51BECE8F100CC7011 /* main.c in Sources */,
+				271C10931BEF31ED006C9D2C /* LinkList.c in Sources */,
 				27DFA0AF1BED976E00862933 /* SeqList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

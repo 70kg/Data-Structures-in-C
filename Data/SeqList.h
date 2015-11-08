@@ -4,7 +4,7 @@
 //
 //  Created by Mr_Wrong on 15/11/7.
 //
-//
+//线性表
 
 #ifndef ____SeqList__
 #define ____SeqList__
@@ -23,6 +23,8 @@ typedef struct{
 extern int Locate(SeqList,int);
 extern int InsList(SeqList *,int,int);
 extern int DelList(SeqList *,int,int *);
+extern void mergeList(SeqList *,SeqList *,SeqList *);
 
+extern void fillList(SeqList *,int *,int size);
 #endif /* defined(____SeqList__) */
 

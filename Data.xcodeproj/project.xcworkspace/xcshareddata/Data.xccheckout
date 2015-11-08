@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2B2A514F-88E8-4C5A-96DF-87831F170319</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>81E10FBDCB1048091A1BFCE353F6A1F2E6F0F5BF</key>
+		<string>https://github.com/70kg/Data-Structures-in-C.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Data.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>81E10FBDCB1048091A1BFCE353F6A1F2E6F0F5BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/70kg/Data-Structures-in-C.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>81E10FBDCB1048091A1BFCE353F6A1F2E6F0F5BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>81E10FBDCB1048091A1BFCE353F6A1F2E6F0F5BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Data%20Structures%20in%20C</string>
+		</dict>
+	</array>
+</dict>
+</plist>

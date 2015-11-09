@@ -55,6 +55,13 @@ int main(int argc, const char * argv[]) {
     printf("链表的长度是：%d\n",ListLength(L));
     
     InseList(L,1,'5');
-    printf("插入后的链表长度：%c\n",Get(L, 1)->data);
+    printf("插入后的链表长度：%d,首节点：%c\n",ListLength(L),Get(L, 1)->data);
+    
+    char tem;
+    DellList(L,1,&tem);
+    printf("链表长度%d,删除链表元素:%c\n",ListLength(L),tem);
+    
+    LinkList Lb = L;
+    printf("合并后的长度%d\n",ListLength(MergeLinkList(L,Lb)));
     return 0;
 }

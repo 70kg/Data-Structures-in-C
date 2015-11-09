@@ -109,3 +109,55 @@ int InseList(LinkList L,int i,char ele){
     
     return OK;
 }
+
+int DellList(LinkList L,int i,char * e){
+    Node *pre,*r;
+    pre = L;
+    int k = 0;
+    while (pre->next!=NULL&&k<i-1) {
+        k++;
+        pre = pre->next;
+    }
+    
+    if (!pre->next) {//是空的
+        printf("删除的位置不合法");
+        return ERROR;
+    }
+    
+    r = pre->next;
+    pre->next = r->next;
+    *e = r->data;
+    free(r);
+    return OK;
+}
+LinkList MergeLinkList(LinkList LA,LinkList LB){
+    Node *pa,*pb,*r;
+    LinkList LC;
+    pa = LA->next;
+    pb = LB->next;
+    LC = LA;
+    LC->next = NULL;
+    r = LC;
+    
+    while (pa!=NULL&&pb!=NULL) {
+        if (pa->data<=pb->data) {
+            r->next = pa;
+            r = pa;
+            pa = pa->next;
+        }
+        else{
+            r->next = pb;
+            r = pb;
+            pb = pb->next;
+        }
+        
+    }
+    if (pa) {
+        r->next = pa;
+    }else
+        r->next = pb;
+    
+    free(LB);
+    return LC;
+    
+}

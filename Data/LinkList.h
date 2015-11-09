@@ -12,7 +12,7 @@
 #define ERROR 0;
 
 #include <stdio.h>
-
+#include <stdlib.h>
 typedef struct Node{
     int data;
     struct Node *next;
@@ -24,5 +24,7 @@ void CreateFormTail(LinkList *);//尾插法建立单链表
 Node * Get(LinkList,int);//查找第i个节点
 Node * Located(LinkList,char);//按内容查找位置
 int ListLength(LinkList);//获取链表的长度
-int InseList(LinkList,int,char);
+int InseList(LinkList,int,char);//插入
+int DellList(LinkList,int,char *);//删除链表元素
+LinkList MergeLinkList(LinkList,LinkList);//合并两个链表
 #endif /* defined(____LinkList__) */
